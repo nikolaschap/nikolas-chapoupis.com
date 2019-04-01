@@ -101,22 +101,15 @@ function SEO({ description, lang, meta, keywords, slug, title, image }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `de`,
   meta: [],
   keywords: [
     "blog",
-    "geromekevin",
-    "react",
-    "jan",
-    "hesters",
-    "article",
-    "how to",
-    "happy body",
-    "javascript",
-    "tutorial",
-    "typescript",
-    "react-native",
-    "persuasion",
+    "nikolas",
+    "chapoupis",
+    "entscheiden",
+    "giving",
+    "circle",
   ],
   description: ``,
   slug: ``,

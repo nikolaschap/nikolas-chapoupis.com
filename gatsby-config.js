@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Geromekevin`,
-    author: `Jan Hesters`,
-    description: `Personal blog by Jan Hesters. Ask better questions.`,
-    siteUrl: `https://geromekevin.com/`,
+    title: `Nikolas Chapoupis`,
+    author: `Nikolas Chapoupis`,
+    description: `Persönlicher Blog von Nikolas Chapoupis. Effektiver Entscheiden.`,
+    siteUrl: `https://nikolas-chapoupis.com/`,
     social: {
-      twitter: `@geromekevin`,
+      twitter: `@nikolas_chap`,
     },
   },
   plugins: [
@@ -57,11 +57,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `A Blog by Jan Hesters`,
-        short_name: `Geromekevin`,
+        name: `Ein Blog von Nikolas Chapoupis`,
+        short_name: `Nikolas Chapoupis`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#82AAFF`,
+        theme_color: `#8be9fd`,
         display: `minimal-ui`,
         icon: `content/assets/icon.png`,
       },

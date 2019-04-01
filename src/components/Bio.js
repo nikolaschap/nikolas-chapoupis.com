@@ -32,13 +32,13 @@ function Bio() {
               }}
             />
             <p>
-              Personal blog by{" "}
+              Persönlicher Blog von{" "}
               <a href={`https://twitter.com/${social.twitter}`}>
-                Jan Hesters
+                Nikolas Chapoupis
               </a>
               .
               <br />
-              Ask better questions.
+              Effektiver Entscheiden.
             </p>
           </div>
         )
@@ -49,7 +49,7 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/jan.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/nikolas.jpg/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed

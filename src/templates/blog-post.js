@@ -67,7 +67,7 @@ class BlogPostTemplate extends React.Component {
               }}
               to={"/"}
             >
-              Geromekevin
+              Nikolas Chapoupis
             </Link>
           </h3>
           <Bio />

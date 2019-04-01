@@ -1,11 +1,11 @@
 {
-  "name": "geromekevin",
+  "name": "nikolas-chapoupis",
   "private": true,
-  "description": "Personal blog by Jan Hesters. Ask better questions.",
+  "description": "Persönlicher Blog von Nikolas Chapoupis. Effektiver Entscheiden.",
   "version": "0.1.0",
-  "author": "Jan Hesters",
+  "author": "Nikolas Chapoupis",
   "bugs": {
-    "url": "https://github.com/janhesters/geromekevin/issues"
+    "url": "https://github.com/nikolaschap/nikolas-chapoupis.com/issues"
   },
   "dependencies": {
     "gatsby": "^2.3.3",
@@ -39,18 +39,18 @@
   "devDependencies": {
     "prettier": "^1.16.4"
   },
-  "homepage": "https://geromekevin.com",
+  "homepage": "https://nikolas-chapoupis.com",
   "keywords": [
-    "gatsby",
-    "geromekevin",
-    "react",
+    "entscheiden",
+    "nikolas",
+    "chapoupis",
     "blog"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janhesters/geromekevin"
+    "url": "git+https://github.com/nikolaschap/nikolas-chapoupis.com"
   },
   "scripts": {
     "build": "gatsby build",
