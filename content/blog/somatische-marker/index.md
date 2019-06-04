@@ -1,7 +1,7 @@
 ---
 title: Somatische Marker
 date: '2019-04-05' # (yyyy-mm-dd)
-description: Somatische Marker: Das Geheimnisses der Intuition
+description: Somatische Marker - Das Geheimnisses der Intuition
 cover: './ideaBulb.jpg'
 ---
 
