@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import Bio from "../components/Bio"
 import Footer from "../components/Footer"
@@ -49,6 +50,12 @@ class BlogIndex extends React.Component {
                     __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
+                {
+                  node.frontmatter.cover && (
+                    <Img
+                      sizes={node.frontmatter.cover.childImageSharp.sizes}
+                    />)
+                }
               </div>
             )
           })}
@@ -82,6 +89,14 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            cover {
+              publicURL
+              childImageSharp {
+                sizes(maxWidth: 2000) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
           }
         }
       }
